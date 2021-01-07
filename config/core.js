@@ -9,7 +9,7 @@ const entrypoints = [
 const baker = new Baker({
   assets: 'assets',
   data: '_data',
-  domain: 'https://caseymm.github.io/whos-wearing-a-mask/_dist',
+  domain: 'https://caseymm.github.io/portfolio-2020/_dist',
   entrypoints: `scripts/${
     entrypoints.length > 1 ? `{${entrypoints.join(',')}}` : entrypoints[0]
   }.js`,

@@ -1,0 +1,39 @@
+$main-color: #391bfe;
+
+.resume {
+  max-width: 750px;
+  width: 100%;
+  margin: 50px auto;
+  background-color: #fff;
+  border: 3px solid $main-color;
+  .row {
+    display: flex;
+    flex-direction: row;
+    margin: 10px 20px;
+    .title {
+      width: 35%;
+      max-width: 250px;
+      h2 {
+        font-size: 22px;
+        margin-bottom: 8px;
+      }
+      h3 {
+        font-size: 16px;
+        margin: 3px 0;
+        font-weight: 500;
+        // &:nth-of-type(2){
+        //   font-weight: normal;
+        // }
+      }
+    }
+    .content {
+      width: 55%;
+      flex-grow: 1;
+      li {
+        font-size: 18px;
+        margin-bottom: 8px;
+        line-height: 1.35;
+      }
+    }
+  }
+}
