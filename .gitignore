@@ -87,9 +87,6 @@ typings/
 # DynamoDB Local files
 .dynamodb/
 
-# build directory
-_dist
-
 # Jupyter notebooks checkpoints
 .ipynb_checkpoints
 */.ipynb_checkpoints/*
