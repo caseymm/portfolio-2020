@@ -42,13 +42,25 @@ body {
     margin: auto;
     padding: 10px 0;
     font-size: 22px;
-    @media (max-width: 1240px) {
-      max-width: calc(100% - 40px);
-    }
     a {
       text-decoration: none;
-      margin-left: 10px;
+      margin-left: 12px;
       color: $main-color;
+    }
+    .links {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      a {
+        width: 25px;
+        height: 25px;
+        img {
+          width: 100%;
+        }
+      }
+    }
+    @media (max-width: 1240px) {
+      max-width: calc(100% - 40px);
     }
     .name a {
       margin-left: 0px;
