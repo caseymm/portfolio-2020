@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+
+{% import "macros/methodology.html" as methodology %}
+
+{% block content %}
+<div class="about">
+  <div class="photo" style="background-image: url({% static 'assets/' + meta.bio_image %})"></div>
+  <div class="text">
+    {% for p in meta.about %}
+      <p>{{ p.value }}</p>
+    {% endfor %}
+    <p></p>
+    <span class="icons">
+      <a href="https://twitter.com/caseymmiller"><img src="{% static 'assets/twitter.svg' %}" /></a>
+      <a href="https://github.com/caseymm"><img src="{% static 'assets/github.svg' %}" /></a>
+    </span>
+  </div>
+</div>
+{% endblock content %}
