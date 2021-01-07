@@ -1,6 +1,6 @@
 <meta charset="utf-8">
 
-<title>{% block title %}{{ meta.seo_headline }} - Los Angeles Times{% endblock title %}</title>
+<title>{% block title %}{{ meta.seo_headline }}{% endblock title %}</title>
 
 <meta name="description" content="{% block description %}{{ meta.seo_description }}{% endblock description %}">
 
@@ -18,9 +18,8 @@
 <meta property="og:title" content="{{ meta.social_headline }}">
 <meta property="og:description" content="{{ meta.social_description }}">
 <meta property="og:url" content="{{ current_page.absolute_url }}">
-<meta property="og:image" content="{% staticabsolute meta.social_image %}">
 <meta property="og:type" content="article">
-<meta property="og:site_name" content="Los Angeles Times">
+<meta property="og:site_name" content="caseymmiller.com">
 <meta property="og:locale" content="en_US">
 {% endblock opengraph %}
 
@@ -28,7 +27,6 @@
 <meta property="twitter:title" content="{{ meta.social_headline }}">
 <meta property="twitter:description" content="{{ meta.social_description }}">
 <meta property="twitter:url" content="{{ current_page.absolute_url }}">
-<meta property="twitter:image" content="{% staticabsolute meta.social_image %}">
-<meta property="twitter:site" content="@latimes">
+<meta property="twitter:site" content="@caseymmiller">
 <meta property="twitter:card" content="summary_large_image">
 {% endblock twitter %}
