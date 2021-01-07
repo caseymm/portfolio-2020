@@ -1,0 +1,34 @@
+<meta charset="utf-8">
+
+<title>{% block title %}{{ meta.seo_headline }} - Los Angeles Times{% endblock title %}</title>
+
+<meta name="description" content="{% block description %}{{ meta.seo_description }}{% endblock description %}">
+
+{% block viewport %}<meta name="viewport" content="width=device-width, initial-scale=1">{% endblock viewport %}
+
+{% block favicons %}
+<link rel="apple-touch-icon" sizes="180x180" href="{% staticabsolute '/assets/meta/apple-touch-icon.png' %}">
+<link rel="icon" type="image/png" href="{% staticabsolute '/assets/meta/favicon-32x32.png' %}">
+<link rel="icon" type="image/png" href="{% staticabsolute '/assets/meta/favicon-16x16.png' %}">
+{% endblock favicons %}
+
+{% block canonical_url %}<link rel="canonical" href="{{ current_page.absolute_url }}">{% endblock canonical_url %}
+
+{% block opengraph %}
+<meta property="og:title" content="{{ meta.social_headline }}">
+<meta property="og:description" content="{{ meta.social_description }}">
+<meta property="og:url" content="{{ current_page.absolute_url }}">
+<meta property="og:image" content="{% staticabsolute meta.social_image %}">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Los Angeles Times">
+<meta property="og:locale" content="en_US">
+{% endblock opengraph %}
+
+{% block twitter %}
+<meta property="twitter:title" content="{{ meta.social_headline }}">
+<meta property="twitter:description" content="{{ meta.social_description }}">
+<meta property="twitter:url" content="{{ current_page.absolute_url }}">
+<meta property="twitter:image" content="{% staticabsolute meta.social_image %}">
+<meta property="twitter:site" content="@latimes">
+<meta property="twitter:card" content="summary_large_image">
+{% endblock twitter %}

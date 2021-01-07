@@ -1,0 +1,27 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "NODE_ENV=production node config/build.js",
+    "deploy": "NODE_ENV=production node config/deploy.js",
+    "git-pre-commit": "lint-staged",
+    "start": "NODE_ENV=development node config/serve.js"
+  },
+  "dependencies": {
+    "intersection-observer": "^0.10.0",
+    "yall-js": "^3.2.0"
+  },
+  "devDependencies": {
+    "@datagraphics/baker": "^0.21.0",
+    "@datagraphics/delivery": "^0.6.0",
+    "@datagraphics/prettier-config": "^2.0.0",
+    "@zeit/git-hooks": "^0.1.4",
+    "lint-staged": "^10.2.11",
+    "prettier": "^2.0.5"
+  },
+  "prettier": "@datagraphics/prettier-config",
+  "lint-staged": {
+    "*.{js,md,scss}": [
+      "prettier --write"
+    ]
+  }
+}

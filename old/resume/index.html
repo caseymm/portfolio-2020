@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+
+<html lang="en" ng-app>
+  <head>
+    <meta charset="utf-8">
+    <title>Casey M Miller</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900|Roboto+Slab:300,400,700|Roboto:400,500,700,900" rel="stylesheet">
+    <!-- <link href="/static/css/bootstrap.min.css" rel="stylesheet"> -->
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="//cdn.datatables.net/plug-ins/a5734b29083/integration/bootstrap/3/dataTables.bootstrap.css">
+    <!-- <link href="/static/css/bootstrap-theme.min.css" rel="stylesheet">
+    <link href="/static/css/bootstrap-datatables.css" rel="stylesheet"> -->
+
+    <!-- Your stuff: Third-party css libraries go here -->
+    <link href="/static/css/font-awesome.min.css" rel="stylesheet">
+
+    <!-- This file store project specific CSS -->
+    <link href="/static/css/project.css" rel="stylesheet">
+
+    <script type="text/javascript">
+
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-35670323-1']);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+
+    </script>
+
+
+
+
+      <!--<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.16/angular.min.js"></script>-->
+
+
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <ul class="on-hide">
+            <li><a href="/" class="name">Casey Miller</a></li>
+            <li><a href="http://twitter.com/caseymmiller" target="blank"><i class="fa fa-twitter fa-lg"></i></a></li>
+            <li><a href="https://github.com/caseymm" target="blank"><i class="fa fa-github fa-lg"></i></a></li>
+        </ul>
+
+      </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse navbar-ex1-collapse">
+        <ul class="nav navbar-nav">
+          <li><a href="/" class="hide-small">Casey Miller</a></li>
+          <li><a href="/resume/">Resume</a></li>
+          <li><a href="/about/">About</a></li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+            <!-- <li><a href="http://relevant-ideas.herokuapp.com/" target="_blank">Blog</a></li> -->
+            <li class="hide-icon"><a href="https://github.com/caseymm" target="blank"><i class="fa fa-github fa-lg"></i></a></li>
+            <li class="hide-icon"><a href="http://twitter.com/caseymmiller" target="blank"><i class="fa fa-twitter fa-lg"></i></a></li>
+            <!-- <li><a href="http://twitter.com/caseymmiller" target="blank">@caseymmiller</a></li> -->
+        </ul>
+
+      </div><!-- /.navbar-collapse -->
+      </div>
+    </nav>
+
+    <div class="seventy-five"></div>
+<!--
+    <div class="container"> -->
+
+
+<div class="container resume">
+    <div class="row">
+        <div class="col-md-3 col-md-offset-1 col-sm-4 col-xs-12 title">
+          <h1 class="slab">Casey Miller</h1>
+          <!-- <h5>(814) 566-2276</h5> -->
+          <h5><a href="mailto:caseymm@gmail.com">caseymm@gmail.com</a></h5>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-3 col-md-offset-1 col-sm-4 col-xs-12 title">
+          <h4 class="slab">Data and Graphics Journalist</h4>
+          <h5>Los Angeles Times</h5>
+          <h5>February 2019 - Present</h5>
+        </div>
+        <div class="col-md-7 col-sm-8 col-xs-12 content">
+          <ul>
+            <li>Revitalized our earthquake tracking application, Quakebot, and released and new and improved version that includes the ability to automatically generate earthquake shake maps</li>
+            <li>Created and maintain an always on, up-to-date wildfire map centering on the West and California. The map pulls from a custom data feed that we've created by processing a number of vetted data sources and allows us to get information to our users as quickly as possible.</li>
+          </ul>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-3 col-md-offset-1 col-sm-4 col-xs-12 title">
+          <h4 class="slab">Data Visualization Specialist</h4>
+          <h5>Mapbox</h5>
+          <h5>October 2017 - January 2019</h5>
+        </div>
+        <div class="col-md-7 col-sm-8 col-xs-12 content">
+          <ul>
+            <li>Used Mapbox and other tools to create visualizations, interactive graphics, and stories as part of The Narratives Desk. Graphics were published via other media organizations as well as self-published by Mapbox</li>
+            <li>Led workshops teaching employees from news organizations how to use Mapbox tools and discussed best practices for using Mapbox tools as well as design best practices for creating graphics</li>
+            <li>Consulted with developers in other newsrooms to help them get the most out of Mapbox and create the best possible visual for their story</li>
+          </ul>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-3 col-md-offset-1 col-sm-4 col-xs-12 title">
+          <h4 class="slab">Editorial Engineer</h4>
+          <h5>Vox.com</h5>
+          <h5>June 2017 - October 2017</h5>
+        </div>
+        <div class="col-md-7 col-sm-8 col-xs-12 content">
+          <ul>
+            <li>Worked with Vox.com reporters and independently to come up with and visualize compelling story ideas. This included but was not limited to brainstorming meetings, whiteboarding sessions, check-in meetings, and scrums</li>
+            <li>Scale of projects ranges from a few days to a few weeks depending on event timelines and the news cycle</li>
+          </ul>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-3 col-md-offset-1 col-sm-4 col-xs-12 title">
+          <h4 class="slab">Full-Stack Engineer</h4>
+          <h5>Storytelling Studio</h5>
+          <h5>Vox Media</h5>
+          <h5>July 2016 - June 2017</h5>
+        </div>
+        <div class="col-md-7 col-sm-8 col-xs-12 content">
+          <ul>
+            <li>Collaborated with reporters from all of Vox Media's brands to create unique storytelling experiences for on and off-platform conten</li>
+            <li>Day-to-day activities included building and maintaining apps and graphics of varied scale, brainstorming, data investigation, and maintaining Autotune</li>
+          </ul>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-3 col-md-offset-1 col-sm-4 col-xs-12 title">
+          <h4 class="slab">Full-Stack Editorial Tools Engineer</h4>
+          <h5>Editorial Products</h5>
+          <h5>Vox Media</h5>
+          <h5>Feb 2015 - July 2016</h5>
+        </div>
+        <div class="col-md-7 col-sm-8 col-xs-12 content">
+          <ul>
+            <li>Served as one of the main contributors to Autotune, Vox's centralized management system for creating reusable graphics</li>
+            <li>Implemented the live preview ability for graphics in Autotune and overhauled the project creation process along with the senior designer on my team. This allowed the reporters and editors using the tool to see the changes they were making to the chart, table, timeline, etc. in real time</li>
+            <li>Created and maintained our Charts "blueprint," which enables the user to create one of nine types of charts, complete with styling to match the given brand</li>
+            <li>Built out longform storytelling pieces and graphics when brands had compelling story ideas and worked with reporters to develop and user test these ideas</li>
+          </ul>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-3 col-md-offset-1 col-sm-4 col-xs-12 title">
+          <h4 class="slab">Interactive Graphics Developer</h4>
+          <h5>Wall Street Journal</h5>
+          <h5>Sept 2014 - Jan 2015</h5>
+        </div>
+        <div class="col-md-7 col-sm-8 col-xs-12 content">
+          <ul>
+            <li>Developed both standalone and companion interactive graphics for stories of varied scale</li>
+          </ul>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-3 col-md-offset-1 col-sm-4 col-xs-12 title">
+          <h4 class="slab">Data Desk Intern</h4>
+          <!-- <h5>Data Desk</h5> -->
+          <h5>Los Angeles Times</h5>
+          <h5>June 2014 - Aug 2014</h5>
+        </div>
+        <div class="col-md-7 col-sm-8 col-xs-12 content">
+          <ul>
+            <li>Created a Django application that stores and displays information for over 2,000 obituaries. The application uses an open source python wrapper for the Tribune Services API to interact with the Los Angeles Times CMS</li>
+            <!-- <li>Used Django to analyze and display Los Angeles County campaign finance data</li> -->
+          </ul>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-3 col-md-offset-1 col-sm-4 col-xs-12 title">
+          <h4 class="slab">Intern</h4>
+          <h5>Verified Studios</h5>
+          <h5>Jan 2014 - Apr 2014</h5>
+        </div>
+        <div class="col-md-7 col-sm-8 col-xs-12 content">
+          <ul>
+            <li>Worked with APIs and scraping techniques to gather information from client sites</li>
+            <li>Developed front-end applications based in D3.js to display analytics data for clients</li>
+          </ul>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-3 col-md-offset-1 col-sm-4 col-xs-12 title">
+          <h4 class="slab">Interactive Graphics Intern</h4>
+          <!-- <h5>Interactive Graphics</h5> -->
+          <h5>Atlanta Journal-Constitution</h5>
+          <h5>June 2013 - Aug 2013</h5>
+        </div>
+        <div class="col-md-7 col-sm-8 col-xs-12 content">
+          <ul>
+            <li>Created embeddable maps, charts, and other graphics that reporters could embed in their stories. I pitched interactive ideas based on stories that were logged in the budget tool</li>
+          </ul>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-xs-12">
+          <hr />
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-3 col-md-offset-1 col-sm-4 col-xs-12 title">
+          <h4 class="slab">UNC Chapel Hill</h4>
+          <h5>Aug 2011 - May 2014</h5>
+        </div>
+        <div class="col-md-7 col-sm-8 col-xs-12 content">
+          <ul>
+            <p>B.A. in Journalism and Mass Communication<br />Specialization in Multimedia</p>
+            <!-- <li></li> -->
+          </ul>
+        </div>
+    </div>
+
+
+</div>
+<br />
+
+
+
+    <!-- </div> --><!-- /container -->
+
+
+
+
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+
+      <!-- Latest JQuery -->
+      <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+      <!-- Latest compiled and minified JavaScript -->
+      <script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+      <!--<script src="/static/js/bootstrap.min.js"></script>-->
+
+      <!-- Your stuff: Third-party javascript libraries go here -->
+      <script src="http://cdn.datatables.net/1.10.2/js/jquery.dataTables.min.js"></script>
+      <script src="http://d3js.org/d3.v3.min.js"></script>
+      <script src="http://d3js.org/d3.hexbin.v0.min.js"></script>
+
+      <!-- place project specific Javascript in this file -->
+      <script src="/static/js/project.js"></script>
+
+  </body>
+</html>

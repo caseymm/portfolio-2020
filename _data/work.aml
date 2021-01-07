@@ -1,0 +1,151 @@
+[projects]
+
+slug: mask-tracker
+title: Mask Tracker
+org: LAT
+date: 2020-08-19
+url: https://www.latimes.com/projects/california-covid-19-masks-who-is-following-the-rules/
+video: mask-tracker.mp4
+[.description]
+* This project strives to track the percentage of people in the great Los Angeles area wearing masks.
+
+* I set up an entry form for my teammates to track the people the saw and hooked it up to a database (using dynamoDB and lambda). Once the experiment was completed, I analyzed the data and created this graphic.
+[]
+display: true
+more: https://twitter.com/caseymmiller/status/1296152225954148352
+extra: https://twitter.com/CNNnewsroom/status/1296536104074727431
+
+
+slug: men-who-dont-move
+title: Men Who Don't Move
+org: personal
+date: 2020-04-12
+url: https://caseymm.github.io/men-who-dont-move/
+image: mwdm.jpg
+[.description]
+* This project was borne out of my frustration with people not wearing masks at the beginning of the pandemic. It relies heavily on the Mapbox dataset and static maps APIs.
+[]
+display: true
+more:
+
+
+slug: fire-map
+title: Live Wildfires Map
+org: LAT
+date: 2019-10-11
+url: https://www.latimes.com/wildfires-map/
+image: fire-map.jpg
+[.description]
+* I created and maintain the live wildfires map for the Los Angeles Times.
+
+* While the map itself is the top layer of this project, I also wrote a number of open source packages to help gather our data from various sources, our data service, as well as helped to write the layer that sits in-between, the geoprocessor, that aggregates our data and cleans it up for our map.
+[]
+display: true
+more: https://www.mapbox.com/webinars/la-times-california-wildfires-map
+
+
+slug: quakebot-shakemaps
+title: Shakemaps
+org: LAT
+date: 2019-08-15
+url: https://twitter.com/caseymmiller/status/1210711769850597376
+image: shakemaps.jpeg
+[.description]
+* My favorite addition to Quakebot added when I overhauled the app in 2019. Now whenever a qualifying earthquake occurs a shake map is automatically created for the quake and added to our database.
+[]
+display: true
+more: https://docs.google.com/presentation/d/1a8dJlaNabqWlAUYvvj0lI8to8eW0A4RpwWA-3FRfzgc/edit?usp=sharing
+
+
+slug: stevie-70
+title: Stevie at 70
+org: personal
+date: 2018-05-26
+url: https://caseymm.github.io/stevie70
+image: stevie.gif
+[.description]
+* My labor of ❤️ to celebrate Stevie on her 70th birthday. All data was collected from Spotify using the Python client, Spotipy, formatted the data with Python, and used D3 to render the charts and interactions.
+[]
+display: true
+more:
+
+
+slug: super-bowl-traffic
+title: Super Bowl Traffic
+org: Mapbox
+date: 2018-02-07
+url: https://www.mapbox.com/narratives/big-game-2018-traffic/
+image: routes.gif
+[.description]
+* This project used the Mapbox routes API and a few Amazon lambda functions to track the estimated traffic time between points in Minneapolis the month before and during the Super Bowl to determine how much the influx of people adds to travel times around the city.
+[]
+display: true
+more:
+
+
+slug: solar-eclipse
+title: Solar Eclipse
+org: Vox
+date: 2017-07-25
+url: https://www.vox.com/science-and-health/2017/7/25/16019892/solar-eclipse-2017-interactive-map
+image: eclipse.gif
+[.description]
+* This graphic allows users to view an approximation of what the 2017 solar eclipse looked like from their (or any given) zip code. The visualization also included the start, peak, and end times of the eclipse. This graphic received 9.2 million page views.
+[]
+display: true
+more: https://storytelling.voxmedia.com/2017/7/31/16051450/three-things-i-learned-while-making-voxs-solar-eclipse-graphic
+
+
+slug: ride-hailing
+title: Ride-hailing
+org: Mapbox
+date: 2018-05-08
+url: https://labs.mapbox.com/narratives/ride-hailing/
+image: sankey.gif
+[.description]
+* This project aims to show the relationships between investors and ride-hailing companies in various countries and markets around the world.
+[]
+display: true
+more:
+
+
+slug: healthcare-dashboard
+title: Healthcare Dashboard
+org: Vox
+date: 2017-05-25
+url:
+video: ohio.mp4
+[.description]
+* My team created this tool for Vox reporters to help track and report on the status of health care in counties throughout the United States.
+
+* I built the map and all of it’s versions, constructed the user-facing dashboard for interacting with the map, and integrated the “save image” ability which saves the map currently in view to a .png that the reporter can then use in stories.
+[]
+display: true
+more:
+
+slug: treasure-hunt
+title: Treasure Hunt
+org: Vox
+date: 2017-02-28
+url: http://www.vox.com/a/fenn-treasure-hunt-map
+image: treasure-hunt.jpg
+[.description]
+* "In search of Forrest Fenn’s treasure" was a true collaboration between Vox Media's Storytelling Studio and the Vox video team. We worked together to create the most immersive experience that we could for the user both on and off-platform (AMP).
+[]
+display: true
+more:
+
+
+slug: gay-marriage
+title: Marriage Mosaic
+org: WSJ
+date: 2014-12-31
+url: http://graphics.wsj.com/gay-unions/
+video: gaymarriage.mp4
+[.description]
+* "Marriage Mosaic: Evolution of Gay Unions in the U.S." depicts the changes in legislation regarding same-sex marriage laws throughout the U.S. over the past 20 years.
+[]
+display: true
+more:
+
+[]

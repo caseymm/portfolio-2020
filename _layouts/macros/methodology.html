@@ -1,0 +1,8 @@
+{% macro html(paragraph_list, headline='About this story') %}
+<aside class="methodology">
+  <div class="methodology_header">{{ headline }}</div>
+  {% for obj in paragraph_list %}
+    <p>{{ obj.value }}</p>
+  {% endfor %}
+</aside>
+{% endmacro %}

@@ -1,0 +1,4 @@
+organization_id,project_name,primary_skill_id,reference_name,github_link,assigned_spot,project_link,slug,active,featured_project,scale,date,id
+1,Ebola in Liberia,2,Ebola,"http://en.wikipedia.org/wiki/Furnace_Creek,_California",Left,"http://en.wikipedia.org/wiki/Furnace_Creek,_California",ebola,True,True,3,2014-09-15,2
+1,Django Project,1,djp,http://en.wikipedia.org/wiki/Death_Valley,Right,http://en.wikipedia.org/wiki/Death_Valley,djp,True,True,4,2014-09-23,4
+3,Test item 2,3,test item 2,http://en.wikipedia.org/wiki/Badwater_Basin,Middle,http://en.wikipedia.org/wiki/Badwater_Basin,test-item-2,True,True,7,2014-09-14,3
