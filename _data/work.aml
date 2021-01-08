@@ -7,26 +7,13 @@ date: 2020-08-19
 url: https://www.latimes.com/projects/california-covid-19-masks-who-is-following-the-rules/
 video: mask-tracker.mp4
 [.description]
-* This project strives to track the percentage of people in the great Los Angeles area wearing masks.
+* This project tracks the percentage of people in the great Los Angeles area wearing masks.
 
-* I set up an entry form for my teammates to track the people the saw and hooked it up to a database (using dynamoDB and lambda). Once the experiment was completed, I analyzed the data and created this graphic.
+* I set up an entry form for my teammates to track the people they saw and hooked it up to a database (using dynamoDB and lambda). Once the experiment was completed, I analyzed the data and created this graphic.
 []
 display: true
 more: https://twitter.com/caseymmiller/status/1296152225954148352
 extra: https://twitter.com/CNNnewsroom/status/1296536104074727431
-
-
-slug: men-who-dont-move
-title: Men Who Don't Move
-org: personal
-date: 2020-04-12
-url: https://caseymm.github.io/men-who-dont-move/
-image: mwdm.jpg
-[.description]
-* This project was borne out of my frustration with people not wearing masks at the beginning of the pandemic. It relies heavily on the Mapbox dataset and static maps APIs.
-[]
-display: true
-more:
 
 
 slug: fire-map
@@ -42,6 +29,19 @@ image: fire-map.jpg
 []
 display: true
 more: https://www.mapbox.com/webinars/la-times-california-wildfires-map
+
+
+slug: men-who-dont-move
+title: Men Who Don't Move
+org: personal
+date: 2020-04-12
+url: https://caseymm.github.io/men-who-dont-move/
+image: mwdm.jpg
+[.description]
+* This project was borne out of my frustration with people not wearing masks at the beginning of the pandemic. It relies heavily on the Mapbox dataset and static maps APIs.
+[]
+display: true
+more:
 
 
 slug: quakebot-shakemaps
