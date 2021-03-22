@@ -43,7 +43,6 @@ image: mwdm.jpg
 display: true
 more:
 
-
 slug: quakebot-shakemaps
 title: Shakemaps
 org: LAT
@@ -56,6 +55,19 @@ image: shakemaps.jpeg
 display: true
 more: https://docs.google.com/presentation/d/1a8dJlaNabqWlAUYvvj0lI8to8eW0A4RpwWA-3FRfzgc/edit?usp=sharing
 
+slug: voting-locations
+title: Voting Locations
+org: LAT
+date: 2019-10-06
+url: https://www.latimes.com/projects/2020-voting-map-socal-polling-places-voting-center-ballot-drop-boxes/
+video: voting.mp4
+[.description]
+* A tool for folks living in and around Los Angeles to find their nearest voting centers and drop boxes.
+
+* The map allows the user to view various routes (walking, biking, and driving) to the locations generated using the Mapbox directions API.
+[]
+display: true
+more:
 
 slug: stevie-70
 title: Stevie at 70
