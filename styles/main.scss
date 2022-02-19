@@ -27,6 +27,9 @@ body {
     linear-gradient($bg-color ($dot-space - $dot-size), transparent 1%) center,
     $dot-color;
   background-size: $dot-space $dot-space;
+  a {
+    color: $main-color;
+  }
 }
 
 .nav-container {

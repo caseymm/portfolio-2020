@@ -1,5 +1,33 @@
 [projects]
 
+slug: automated-shakempas
+title: Automated Shakemaps
+org: personal
+date: 2021-09-30
+url: https://twitter.com/quake_data
+image: bay-area.jpeg
+[.description]
+* This twitter bot automatically tweets out the most recent shakemap data and runs off of automated github actions.
+
+* I continually poll for new earthquake shakemap data, upload it to AWS, and then create a map of the data using mapbox and playwright. As soon as the map is created, it gets tweeted.
+[]
+display: true
+more: 
+
+slug: rfw
+title: Red Flag Warnings
+org: personal
+date: 2021-09-30
+url: https://twitter.com/CA_RFW
+image: rfw.jpeg
+[.description]
+* This project pulls the most recent red flag warning data from the National Weather Service, determines which CA counties are affected, and tweets out a corresponding map and text listing the affected counties.
+
+* I also created a <a href="https://twitter.com/w_w_maps">similar bot</a> using data from the NWS that tweets out maps about a variety of weather related events.
+[]
+display: true
+more: 
+
 slug: mask-tracker
 title: Mask Tracker
 org: LAT
