@@ -1,0 +1,11 @@
+slug: quakebot-shakemaps
+title: Shakemaps
+org: LAT
+date: 2019-08-15
+url: https://twitter.com/caseymmiller/status/1210711769850597376
+image: shakemaps.jpeg
+[.description]
+* My favorite addition to Quakebot added when I overhauled the app in 2019. Now whenever a qualifying earthquake occurs a shake map is automatically created for the quake and added to our database.
+[]
+display: true
+more: https://docs.google.com/presentation/d/1a8dJlaNabqWlAUYvvj0lI8to8eW0A4RpwWA-3FRfzgc/edit?usp=sharing

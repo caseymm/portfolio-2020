@@ -18,12 +18,12 @@ $main-color: #391bfe;
     background-color: #fff;
   }
   .photo {
-    height: 70vh;
-    width: 60%;
+    height: 76vh;
+    width: 65%;
     background-size: cover;
     background-position: center;
     @media (max-width: 940px) {
-      height: 50vh;
+      height: 60vh;
     }
     @media (max-width: 800px) {
       width: calc(100% - 6px);
