@@ -1,5 +1,20 @@
 [projects]
 
+slug: img2geojson
+title: img2geojson
+org: personal
+date: 2022-06-30
+url: https://caseymm.github.io/img2geojson/
+image: img2geojson.png
+[.description]
+* I created this <a href="https://twitter.com/caseymmiller/status/1535410593615605760">open source tool</a> in an effort to help folks convert various types of static files into GeoJSON.
+
+* After tracing an image on the map, the user can export the data as GeoJSON and use it with any compatible mapping library or tool.
+
+[]
+display: true
+more: 
+
 slug: fire-alerts
 title: Live Fire Alerts
 org: personal

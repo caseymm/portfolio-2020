@@ -17,7 +17,9 @@ const baker = new Baker({
   layouts: '_layouts',
   output: '_dist',
   pathPrefix: process.env.DELIVERY_BASE_PATH || '/',
-  staticRoot: 'portfolio-2020/',
+  staticRoot: '/',
 });
+
+// staticRoot: 'portfolio-2020/' || '/',
 
 module.exports = { baker };
