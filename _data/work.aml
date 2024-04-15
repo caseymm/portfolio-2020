@@ -1,5 +1,20 @@
 [projects]
 
+slug: eclipse2024
+title: Solar Eclipse
+org: personal
+date: 2024-03-15
+url: https://eclipse2024.day
+video: eclipse-cover.mp4
+[.description]
+* This visualization allows the user to see what the April 8, 2024 eclipse path looked like across the U.S. as well as see what the exact view of the eclipse would look like in any given location in the States.
+
+* This project was built in React, heavily relying on D3.js and Mapbox.
+
+[]
+display: true
+more:
+
 slug: img2geojson
 title: img2geojson
 org: personal
@@ -139,20 +154,6 @@ image: routes.gif
 []
 display: true
 more:
-
-
-slug: solar-eclipse
-title: Solar Eclipse
-org: Vox
-date: 2017-07-25
-url: https://www.vox.com/science-and-health/2017/7/25/16019892/solar-eclipse-2017-interactive-map
-image: eclipse.gif
-[.description]
-* This graphic allows users to view an approximation of what the 2017 solar eclipse looked like from their (or any given) zip code. The visualization also included the start, peak, and end times of the eclipse. This graphic received 9.2 million page views.
-[]
-display: true
-more: https://storytelling.voxmedia.com/2017/7/31/16051450/three-things-i-learned-while-making-voxs-solar-eclipse-graphic
-
 
 slug: ride-hailing
 title: Ride-hailing

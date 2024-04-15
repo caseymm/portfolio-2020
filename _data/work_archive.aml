@@ -9,3 +9,16 @@ image: shakemaps.jpeg
 []
 display: true
 more: https://docs.google.com/presentation/d/1a8dJlaNabqWlAUYvvj0lI8to8eW0A4RpwWA-3FRfzgc/edit?usp=sharing
+
+
+slug: solar-eclipse
+title: Solar Eclipse
+org: Vox
+date: 2017-07-25
+url: https://www.vox.com/science-and-health/2017/7/25/16019892/solar-eclipse-2017-interactive-map
+image: eclipse.gif
+[.description]
+* This graphic allows users to view an approximation of what the 2017 solar eclipse looked like from their (or any given) zip code. The visualization also included the start, peak, and end times of the eclipse. This graphic received 9.2 million page views.
+[]
+display: true
+more: https://storytelling.voxmedia.com/2017/7/31/16051450/three-things-i-learned-while-making-voxs-solar-eclipse-graphic
